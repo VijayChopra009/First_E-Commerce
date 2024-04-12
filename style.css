@@ -330,32 +330,28 @@ ul{
     .row{
         flex-direction: column;
         width: 100%;
+        align-items: center;
     }
+    
     .col-2, .col-3, .col-4{
         flex-basis: 100%;
+        text-align: center;
     }
-    .col-2 img{
-        width: 100%;
+    
+    .col-2, .col-3, .col-4 img{
         height: 100%;
-        margin: 20px auto;
-    }
-     .col-3, .col-4 img{
-        height: 300px;
-        width: 300px;
+        width: 100%;
     }
     .offer{
         background: radial-gradient(#fff,#ffd6d6);
         padding: 80px 50px;
     }
     .col-2 .offer-img{
-        height: 300px;
-        width: 270px;
-    }
-    .testimonial{
-        padding-top: 100px;
+        height: 80%;
+        width: 80%;
     }
     .testimonial .col-3{
-       margin: 30px 20px;
+       margin: 30px 30px;
     }
     .brands{
         text-align: center;
